@@ -1,0 +1,20 @@
+{
+  "name": "smart-contract-security",
+  "version": "1.0.0",
+  "description": "This project demonstrates common smart contract vulnerabilities and how to identify them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "hardhat": "^2.12.0"
+  }
+}
